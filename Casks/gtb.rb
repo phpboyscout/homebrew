@@ -3,7 +3,7 @@ cask "gtb" do
   name "gtb"
   desc "A helper utility for interacting and managing gtb repos and resources"
   homepage "https://github.com/phpboyscout/go-tool-base"
-  version "1.4.2"
+  version "1.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "gtb" do
   on_macos do
     on_intel do
       url "https://github.com//phpboyscout/go-tool-base/releases/download/v#{version}/gtb_Darwin_x86_64.tar.gz"
-      sha256 "8af9d619430fd0ce7e198dbb88d706ef8e4ed8840bf817ae7d73bc122ffbefb0"
+      sha256 "c36112c60d79bc37f1f60a8eceb4b1de3b1876ab300f7257f56ea8c6932da92e"
     end
     on_arm do
       url "https://github.com//phpboyscout/go-tool-base/releases/download/v#{version}/gtb_Darwin_arm64.tar.gz"
-      sha256 "9b886fb8cbc4cdeed4347934e9a79b8bf8a6d16a7b8bea30abb6e7070736c1ca"
+      sha256 "692ecf7612bcf1bc8df3be0f244fd09296651b5affa3517153ae29d9b823fa4d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com//phpboyscout/go-tool-base/releases/download/v#{version}/gtb_Linux_x86_64.tar.gz"
-      sha256 "96846e10055bf260d951fee667cd0b1d9750dfd861904bcb7cade2dc7a3f9fc8"
+      sha256 "003fac9a56fe3fd514884e0cf8e0f4c9dd46e5dfc4369dbbbd7a38404c08fcae"
     end
     on_arm do
       url "https://github.com//phpboyscout/go-tool-base/releases/download/v#{version}/gtb_Linux_arm64.tar.gz"
-      sha256 "7febf95d83e7d820ee7dfbf4a46dc5fe68e3fd640cf3eaf58f1f2219eeba380a"
+      sha256 "6d88f7c21d655dfd2807b27a0c8fd2192107710698fa0290aa52881c2e611184"
     end
   end
 
